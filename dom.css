@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: yellow;
+}
+
+#cart {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-item .item-quantity {
+    width: 30px;
+    text-align: center;
+}
+
+.heart {
+    cursor: pointer;
+    color: gray;
+    font-size: 20px;
+}
+
+.heart.liked {
+    color: red;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
